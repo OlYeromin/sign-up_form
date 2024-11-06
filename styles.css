@@ -18,12 +18,22 @@ div#left {
     background-position: 75%;
 }
 
+div.transparent-area {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
 p#credits {
     color: white;
 }
 
 p#credits > a:visited {
     color: white;
+}
+
+p#credits > a:active {
+    color: wheat;
 }
 
 div#right {
