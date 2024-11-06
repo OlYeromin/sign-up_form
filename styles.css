@@ -24,19 +24,22 @@ div.transparent-area {
     text-align: center;
 }
 
-div.transparent-area > img {
-    width: 10%;
-    object-fit: contain;
-    display: inline;
-    margin: 0;
-}
-
 div.transparent-area#logo {
     position: relative;
     top: 30vh;
     height: 15vh;
-    /*font-size: 5em;
-    color: white;*/
+
+    font-size: 11vh;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.transparent-area#logo > img {
+    height: 90%;
+        
 }
 
 p#credits {
