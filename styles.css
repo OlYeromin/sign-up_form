@@ -26,6 +26,7 @@ div.transparent-area {
 
 p#credits {
     color: white;
+    font-size: 0.8em;
 }
 
 p#credits > a:visited {
