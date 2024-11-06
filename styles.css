@@ -31,6 +31,14 @@ div.transparent-area > img {
     margin: 0;
 }
 
+div.transparent-area#logo {
+    position: relative;
+    top: 30vh;
+    height: 15vh;
+    /*font-size: 5em;
+    color: white;*/
+}
+
 p#credits {
     color: white;
     font-size: 0.8em;
