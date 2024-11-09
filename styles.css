@@ -61,12 +61,18 @@ div#right {
     flex: 2;
 }
 
+div#right > div:first-child {
+    padding-top: 10%;
+}
+
 div#right > div {
     padding-left: 50px;
+    padding-right: 30%;
 }
 
 h1 {
     margin: 0;
+    width: 100%;
 }
 
 form > section {
@@ -82,10 +88,6 @@ section#fillable {
 
     background-color: white;
     box-shadow: 5px 5px 5px gainsboro;
-}
-
-h1 {
-    width: 100%;
 }
 
 label {
