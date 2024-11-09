@@ -46,11 +46,11 @@ p#credits {
     font-size: 0.8em;
 }
 
-a:visited {
+p#credits > a:visited {
     color: white;
 }
 
-a:active {
+p#credits > a:active {
     color: wheat;
 }
 
@@ -69,3 +69,4 @@ section#fillable {
 h1 {
     width: 100%;
 }
+
