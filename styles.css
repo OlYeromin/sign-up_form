@@ -3,6 +3,7 @@ body {
     flex-direction: row;
     height: 100vh;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div#left {
