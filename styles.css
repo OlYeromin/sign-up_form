@@ -60,6 +60,18 @@ div#right {
     flex: 2;
 }
 
+div#right > div {
+    padding-left: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+form > section {
+    padding: 25px 50px;
+}
+
 section#fillable {
     display: flex;
     flex-wrap: wrap;
