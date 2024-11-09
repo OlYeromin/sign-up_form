@@ -38,8 +38,7 @@ div.transparent-area#logo {
 }
 
 div.transparent-area#logo > img {
-    height: 90%;
-        
+    height: 90%;    
 }
 
 p#credits {
@@ -47,14 +46,20 @@ p#credits {
     font-size: 0.8em;
 }
 
-p#credits > a:visited {
+a:visited {
     color: white;
 }
 
-p#credits > a:active {
+a:active {
     color: wheat;
 }
 
 div#right {
+    background-color: #f2f2f2;
     flex: 2;
+}
+
+section#fillable {
+    background-color: white;
+    box-shadow: 5px 5px 5px gainsboro;
 }
