@@ -60,6 +60,12 @@ div#right {
 }
 
 section#fillable {
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     box-shadow: 5px 5px 5px gainsboro;
+}
+
+h1 {
+    width: 100%;
 }
