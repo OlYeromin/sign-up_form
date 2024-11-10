@@ -105,7 +105,13 @@ input {
     height: 1.2rem;
     padding: 0.1rem 0.5rem;
     border-radius: 4px;
-    border: 1px solid gainsboro;
+    border: 2px solid gainsboro;
+}
+
+input:focus {
+    border: 2px solid #423026;
+    outline: none;
+    box-shadow: 2px 2px 2px rgb(152, 152, 152);
 }
 
 div#sign-in {
