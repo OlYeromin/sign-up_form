@@ -109,9 +109,31 @@ input {
 }
 
 input:focus {
-    border: 2px solid #423026;
+    border: 2px solid #6f4f3e;
     outline: none;
     box-shadow: 2px 2px 2px rgb(152, 152, 152);
+}
+
+button {
+    padding: 0.5rem 4rem;
+    background-color: #6f4f3e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.5s;
+
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(152, 152, 152);
+}
+
+button:hover {
+    background-color: #b6866d;
+}
+
+button:focus {
+    box-shadow: 2px 2px 2px #6f4f3e;
 }
 
 div#sign-in {
